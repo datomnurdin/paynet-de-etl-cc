@@ -1,10 +1,10 @@
-# 🧠 Credit Card Transaction Fraud Detection (PySpark)
+# Credit Card Transaction Fraud Detection (PySpark)
 
 This project analyzes a dataset of credit card transactions using PySpark to uncover fraud patterns and generate meaningful insights through data transformation and visualization.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - Source: [Kaggle - Credit Card Transactions](#)
 - Format: Nested JSON with embedded personal details and timestamps
@@ -12,9 +12,9 @@ This project analyzes a dataset of credit card transactions using PySpark to unc
 
 ---
 
-## ⚙️ Data Transformation Overview
+## Data Transformation Overview
 
-### 🔒 Handling PII
+### Handling PII
 - `cc_num`: Masked using SHA-256 hashing
 - `person_name`: Split into `first` and `last` using regex, discarding noisy parts
 
