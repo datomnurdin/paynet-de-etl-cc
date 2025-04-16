@@ -6,7 +6,7 @@ This project analyzes a dataset of credit card transactions using PySpark to unc
 
 ## Dataset
 
-- Source: [Kaggle - Credit Card Transactions](#)
+- Source: https://www.kaggle.com/datasets/e47f88e5e8ce59c9598475a107d9a80ebc363a83859a59facb069b13a9001773
 - Format: Nested JSON with embedded personal details and timestamps
 - Size: ~160K records, real-world-like structure
 
